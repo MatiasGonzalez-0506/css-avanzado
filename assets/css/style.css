@@ -25,20 +25,52 @@ nav{
 .sidebar{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
     gap: 0,2rem;
     grid-area: sidebar;
     width: 15vw;
-    height: 88vh;
+    height: 100vh;
     background-color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 .texto-secundario{
     color: lightslategray;
 }
 ul{
     list-style: none;
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-area: contenido;
+    width: 85vw;
+    height: 100vh;
+    background-color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 26rem;
+    height: 100%;
+}
+.card-img img{
+    padding-top: 1rem;
+}
+.titulo-card{
+    text-align: center;
+}
+.button button{
+    width: 26rem;
+    background-color: rgb(6, 51, 134);
+    color: white;
 }
 .footer{
     display: flex;
