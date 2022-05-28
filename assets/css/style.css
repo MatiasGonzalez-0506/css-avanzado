@@ -2,6 +2,26 @@ html, body{
     margin: 0px;
     padding: 0px;
 }
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    'titulo titulo titulo'
+    'sidebar contenido contenido'
+    'footer footer footer'
+    ;
+}
+nav{
+    grid-area: titulo;
+    height: 7vh;
+    background-color: rgb(6, 51, 134);
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -19,4 +39,12 @@ html, body{
 ul{
     list-style: none;
     padding: 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+    height: 5vh;
+    background-color: white;
 }
