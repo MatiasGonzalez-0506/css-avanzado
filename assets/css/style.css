@@ -1,0 +1,22 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 0,2rem;
+    grid-area: sidebar;
+    width: 15vw;
+    height: 88vh;
+    background-color: lightgray;
+}
+.texto-secundario{
+    color: lightslategray;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
